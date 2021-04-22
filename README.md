@@ -8,7 +8,7 @@
   登入后每25秒发一次心跳包(指ping谷歌的web)保持在线，如果ping没了则会重连
 
 
-使用方法：python RuijieAutoLogin user password
+使用方法：python RuijieAutoLogin.py user password
 
 适用于openwrt(其他设备没测试）
 
