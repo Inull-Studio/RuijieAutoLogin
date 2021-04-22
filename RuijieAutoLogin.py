@@ -5,7 +5,7 @@ UsrIn=[]
 UsrIn=sys.argv
 if len(UsrIn) != 3 :
     print('error:pls input ur user&password')
-    print('Ag: "python ./PostUpToSchoolNET 10240000 123456')
+    print('Ag: "python ./RuijieAutoLogin.py 10240000 123456')
     exit(1)
 if requests.get('http://www.google.cn/generate_204') == '' :
     print('error:NET Is Connect')
